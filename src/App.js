@@ -8,7 +8,7 @@ import twitch from "./images/unnamed-1.png";
 function App() {
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="socialBox flex-col items-center justify-center md:mt-64 mt-7">
+      <div className="socialBox flex-col items-center justify-center md:mt-28 mt-7">
         <h1 className="font-custom text-6xl my-3 text-green">Soical Links</h1>
         <ul className="w-72 h-92 rounded-lg bg-green">
           <li>
