@@ -3,9 +3,13 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      green: "#49796B",
+      green: "#34462D",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ["Lobster", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
